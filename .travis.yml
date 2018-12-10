@@ -25,7 +25,7 @@ install:
   - poetry install -v
   - poetry build -v
 
-script: poetry run pytest --cov=pendulum --cov-config=.coveragerc tests/ -W ignore
+script: poetry run pytest --cov=aiowhois --cov-config=.coveragerc tests/ -W ignore
 
 after_success:
   - codecov
