@@ -1,0 +1,2 @@
+[run]
+omit = aiowhois/__version__.py
