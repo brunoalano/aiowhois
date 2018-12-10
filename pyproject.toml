@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/brunoalano/aiowhois"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 aiodns = "^1.1"
 tldextract = "^2.2"
 aiohttp = "^3.4"
